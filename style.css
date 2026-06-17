@@ -21,10 +21,10 @@ header {
       top: 0;
       z-index: 100;
     }
-.bg-video {
-  width: 210px;
-  height: 105px;
-  object-fit: contain;
+    .bg-video {
+  width: 50%;
+  height: 8vh;
+  object-fit: cover;
 }
     nav {
   max-width: 1100px;
