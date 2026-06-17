@@ -22,36 +22,37 @@ header {
   z-index: 100;
   width: 100%;
 }
-
 nav {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 5px 24px;
+  padding: 18px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.bg-video {
+  width: 300px;
+  max-height: 60px; /* controla a altura máxima */
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.logo span {
+  color: var(--rosa-esc);
 }
 
 .logo-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  flex-shrink: 0;
+  display: inline-block;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .logo-link:hover {
   transform: scale(1.05);
-}
-
-.bg-video {
-  width: 200px; 
-  height: auto;
-  display: block;
-  object-fit: contain;
-  max-width: none;
 }
 
 nav ul {
