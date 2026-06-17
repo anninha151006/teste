@@ -54,7 +54,6 @@ header {
 .logo-link:hover {
   transform: scale(1.05);
 }
-
     nav ul {
       list-style: none;
       display: flex;
