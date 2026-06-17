@@ -54,10 +54,7 @@ header {
 .logo-link:hover {
   transform: scale(1.05);
 }
-.logo-video {
-  width: 300px;
-  height: auto;
-}
+
     nav ul {
       list-style: none;
       display: flex;
