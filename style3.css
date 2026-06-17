@@ -1,0 +1,199 @@
+/* ===== PRODUTOS ===== */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+:root {
+      --rosa:     #e8b4b8;
+      --rosa-esc: #c9848a;
+      --bege:     #f5ede6;
+      --bege-esc: #e8d8cc;
+      --marrom:   #7a5c52;
+      --branco:   #ffffff;
+      --texto:    #59725a;
+      --gold:     #c9a96e; 
+    }
+   header {
+      background-color: var(--branco);
+      border-bottom: 1px solid var(--bege-esc);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .bg-video {
+  width: 50%;
+  height: 8vh;
+  object-fit: cover;
+}
+   nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+    .logo {
+  width: 90px;
+  height: auto;
+  display: block;
+  
+}
+    .logo span {
+      color: var(--rosa-esc);
+    }
+    .logo-link {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo-link:hover {
+  transform: scale(1.05);
+}
+    .logo span {
+      color: var(--rosa-esc);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: var(--texto);
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: var(--rosa-esc);
+    }
+    .produtos {
+      padding: 80px 24px;
+      background-color: var(--branco);
+      text-align: center;
+    }
+    .produtos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 28px;
+      max-width: 1100px;
+      margin: 48px auto 0;
+    }
+    .produto-card {
+      background-color: var(--bege);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: 1px solid var(--bege-esc);
+    }
+    .produto-card:hover {
+    transform: translateY(-5px);
+}
+    .produto-img {
+      width: 100%;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      background: linear-gradient(135deg, var(--bege-esc), var(--rosa));
+    }
+    .produto-info {
+      padding: 20px;
+      text-align: left;
+    }
+    .produto-badge {
+      display: inline-block;
+      background-color: var(--rosa);
+      color: var(--marrom);
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+    }
+    .produto-info h3 {
+      font-size: 1.05rem;
+      color: var(--marrom);
+      margin-bottom: 6px;
+    }
+    .produto-info p {
+      font-size: 0.85rem;
+      color: #9a7a74;
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+    .produto-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .preco {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--rosa-esc);
+    }
+    .btn-comprar {
+      background-color: var(--marrom);
+      color: var(--branco);
+      border: none;
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.82rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+    .btn-comprar:hover {
+      background-color: var(--rosa-esc);
+    }
+    .produto-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5ede6;
+}
+
+.produto-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /
+}
+ .rodape{
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conteudo-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-faculdade{
+    width: 120px;
+    height: auto;
+}
+
+.rodape p{
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
