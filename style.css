@@ -21,9 +21,9 @@ header {
       top: 0;
       z-index: 100;
     }
-    .bg-video {
-  width: 70%;
-  height: 18vh;
+.bg-video {
+  width: 210px;
+  height: 105px;
   object-fit: contain;
 }
     nav {
