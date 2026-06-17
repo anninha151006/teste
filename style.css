@@ -34,11 +34,11 @@ nav {
 }
 
 .bg-video {
-  width: 50%;
-  max-height: 8vh; /* controla a altura máxima */
+  width: 450px;
   height: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  max-height: none;
 }
 .logo {
   width: 90px;
